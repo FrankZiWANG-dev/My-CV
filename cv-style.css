@@ -1,0 +1,48 @@
+.grid {
+display: grid;
+grid-template-columns: 150px 450px;
+gap: 20px;
+grid-template-rows: auto;
+}
+
+.left-column {
+background-color:light blue;
+}
+
+.MyPhoto {
+grid-column: 1;
+grid-row: 1;
+}
+.ContactInfo {
+grid-column: 1;
+grid-row: 2;
+}
+.Skills{
+grid-column: 1;
+grid-row: 3;
+}
+.Languages {
+grid-column: 1;
+grid-row: 4;
+}
+.References {
+grid-column: 1;
+grid-row: 5;
+}
+
+.Title {
+grid-column: 2;
+grid-row: 1;
+}
+.Profile {
+grid-column: 2;
+grid-row: 2;
+}
+.Education{
+grid-column: 2;
+grid-row: 3;
+}
+.Experience {
+grid-column: 2;
+grid-row: 4;
+}
